@@ -187,7 +187,7 @@ var bio = {
         "title": "Wordpress eCommerce",
         "school": "Udemy",
         "date": 2014,
-        "url": "http://www.udacity.com"
+        "url": "http://www.udemy.com"
       }
         ]
     };
@@ -311,5 +311,8 @@ var bio = {
             console.log(name);
             return name[0] +" "+name[1];
         }
-// internationalize button
+/*internationalize button
 $('#main').append(internationalizeButton);
+*/
+// add google map
+$("#mapDiv").append(googleMap);
