@@ -1,17 +1,17 @@
-var bio = {
-  "name": "Jason Goldfarb",
-  "role": "Web Developer",
-  "contacts": {
-     "mobile": "(917) 207-1982",
-     "email": "jason.r.goldfarb@gmail.com",
-     "github": "jgoldfarb",
-     "twitter": "jasonrgoldfarb",
-     "location": "New York City Metropolitan Area",
-   },
-  "welcomeMessage": "This is my Front-End Web Development resume",
-  "skills": ["Web Development", "Six Sigma Green Belt", "Project Management", "Digital & Social Media", "Online Technology"],
-  "bioPic": "images/headshot.jpg"
-};
+    var bio = {
+      "name": "Jason Goldfarb, Esq.",
+      "role": "Web Developer",
+      "contacts": {
+         "mobile": "(917) 207-1982",
+         "email": "jason.r.goldfarb@gmail.com",
+         "github": "jgoldfarb",
+         "twitter": "jasonrgoldfarb",
+         "location": "New York City Metropolitan Area",
+       },
+      "welcomeMessage": "This is my Front-End Web Development resume",
+      "skills": ["Web Development", "Six Sigma Green Belt", "Project Management", "Digital & Social Media", "Online Technology"],
+      "bioPic": "images/headshot.jpg"
+    };
 
     var formattedRole =
         HTMLheaderRole.replace("%data%", bio.role);
@@ -96,7 +96,7 @@ var bio = {
           ],
       };
 
-      work.display = function () {
+    work.display = function () {
         for (var job in work.jobs) {
             $("#workExperience").append(HTMLworkStart);
 
@@ -133,7 +133,7 @@ var bio = {
     	    "majors": ["Digital & Social Media Marketing"],
     	    "dates": 2011,
     	    "url": "http://www.hofstra.edu/"
-        },
+          },
         {
           "name": "Brooklyn Law School",
           "location": "Brooklyn, New York",
@@ -141,7 +141,7 @@ var bio = {
           "majors": ["Law"],
           "dates": 1994,
           "url": "http://www.brooklaw.edu/"
-        },
+          },
         {
           "name": "Yeshiva Univeristy - Sy Syms School of Business",
           "location": "New York, New York",
@@ -149,46 +149,46 @@ var bio = {
           "majors": ["Finance"],
           "dates": 1992,
           "url": "https://yu.edu/syms/"
-        }
-          ],
+          }
+            ],
 
       "onlineCourses": [
-    	   {
-    		"title": "Front End Web Developer Nanodegree",
-    		"school": "Udacity",
-    		"date": 2015,
-    		"url": "http://www.udacity.com"
-      },
-      {
-        "title": "Become a Certified Web Developer",
-        "school": "Learn to Program",
-        "date": 2015,
-        "url": "http://www.learntoprogram.tv"
-      },
-      {
-        "title": "The Complete Web Devloper Course",
-        "school": "Udemy",
-        "date": 2015,
-        "url": "http://www.udemy.com"
-      },
-      {
-        "title": "Getting Started with Wordpress",
-        "school": "Udemy",
-        "date": 2014,
-        "url": "http://www.udemy.com"
-      },
-      {
-        "title": "Complete Wordpress Mastery Course",
-        "school": "udemy",
-        "date": 2014,
-        "url": "http://www.udemy.com"
-      },
-      {
-        "title": "Wordpress eCommerce",
-        "school": "Udemy",
-        "date": 2014,
-        "url": "http://www.udemy.com"
-      }
+    	  {
+      		"title": "Front End Web Developer Nanodegree",
+      		"school": "Udacity",
+      		"date": 2015,
+      		"url": "http://www.udacity.com"
+          },
+        {
+          "title": "Become a Certified Web Developer",
+          "school": "Learn to Program",
+          "date": 2015,
+          "url": "http://www.learntoprogram.tv"
+          },
+        {
+          "title": "The Complete Web Devloper Course",
+          "school": "Udemy",
+          "date": 2015,
+          "url": "http://www.udemy.com"
+          },
+        {
+          "title": "Getting Started with Wordpress",
+          "school": "Udemy",
+          "date": 2014,
+          "url": "http://www.udemy.com"
+          },
+        {
+          "title": "Complete Wordpress Mastery Course",
+          "school": "udemy",
+          "date": 2014,
+          "url": "http://www.udemy.com"
+          },
+        {
+          "title": "Wordpress eCommerce",
+          "school": "Udemy",
+          "date": 2014,
+          "url": "http://www.udemy.com"
+          }
         ]
     };
 // School information
@@ -196,48 +196,48 @@ var bio = {
       for (var school in education.schools) {
           $("#education").append(HTMLschoolStart);
 
-          var formattedschoolName =
-          HTMLschoolName.replace("%data%", education.schools[school].name);
+            var formattedschoolName =
+            HTMLschoolName.replace("%data%", education.schools[school].name);
 
-          var formattedDegree =
-          HTMLschoolDegree.replace("%data%", education.schools[school].degree);
+            var formattedDegree =
+            HTMLschoolDegree.replace("%data%", education.schools[school].degree);
 
-          var formattedschoolNameDegree = formattedschoolName + formattedDegree;
-          $(".education-entry:last").append(formattedschoolNameDegree);
+            var formattedschoolNameDegree = formattedschoolName + formattedDegree;
+            $(".education-entry:last").append(formattedschoolNameDegree);
 
-          var formattedschoolDates =
-          HTMLschoolDates.replace("%data%", education.schools[school].dates);
-          $(".education-entry:last").append(formattedschoolDates);
+            var formattedschoolDates =
+            HTMLschoolDates.replace("%data%", education.schools[school].dates);
+            $(".education-entry:last").append(formattedschoolDates);
 
-          var formattedschoolLocation =
-          HTMLschoolLocation.replace("%data%", education.schools[school].location);
-          $(".education-entry:last").append(formattedschoolLocation);
+            var formattedschoolLocation =
+            HTMLschoolLocation.replace("%data%", education.schools[school].location);
+            $(".education-entry:last").append(formattedschoolLocation);
 
-          var formattedSchoolMajor =
-          HTMLschoolMajor.replace("%data%", education.schools[school].majors);
-          $(".education-entry:last").append(formattedSchoolMajor);
-        }
+            var formattedSchoolMajor =
+            HTMLschoolMajor.replace("%data%", education.schools[school].majors);
+            $(".education-entry:last").append(formattedSchoolMajor);
+          }
 //online course information
         $("#education").append(HTMLonlineClasses);
           for (var course in education.onlineCourses) {
             $("#education").append(HTMLschoolStart);
-                  var formattedonlineTitle =
-                  HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
+              var formattedonlineTitle =
+              HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
 
-                  var formattedonlineSchool =
-                  HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
+              var formattedonlineSchool =
+              HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
 
-                  var formattedonlineTitleSchool = formattedonlineTitle + formattedonlineSchool;
-                  $(".education-entry:last").append(formattedonlineTitle);
+              var formattedonlineTitleSchool = formattedonlineTitle + formattedonlineSchool;
+              $(".education-entry:last").append(formattedonlineTitle);
 
-                  var formattedonlineDate =
-                  HTMLonlineDates.replace("%data%", education.onlineCourses[course].date);
-                  $(".education-entry:last").append(formattedonlineDate);
+              var formattedonlineDate =
+              HTMLonlineDates.replace("%data%", education.onlineCourses[course].date);
+              $(".education-entry:last").append(formattedonlineDate);
 
-                  var formattedURL =
-                  HTMLonlineURL.replace("%data%", education.onlineCourses[course].url);
-                  $(".education-entry:last").append(formattedURL);
-                }
+              var formattedURL =
+              HTMLonlineURL.replace("%data%", education.onlineCourses[course].url);
+              $(".education-entry:last").append(formattedURL);
+            }
     };
       education.display();
 
@@ -245,16 +245,16 @@ var bio = {
           var projects = {
             degreeProjects: [
                     {
-                  "title": "Portfolio Site",
-                  "dates": 2015,
-                  "description": "Replicate a design mockup from a PDF-file using HTML and CSS. Code with Bootstrap to develop a responsive website that will display images, descriptions and links to each of the portfolio projects responsively on different devices. Prepared for this project with: Intro to HTML and CSS, Responsive Web Design Fundamentals, and Responsive Images.",
-                  "images": "images/portfoliosite.jpg",
+              "title": "Portfolio Site",
+              "dates": 2015,
+              "description": "Replicate a design mockup from a PDF-file using HTML and CSS. Code with Bootstrap to develop a responsive website that will display images, descriptions and links to each of the portfolio projects responsively on different devices. Prepared for this project with: Intro to HTML and CSS, Responsive Web Design Fundamentals, and Responsive Images.",
+              "images": "images/portfoliosite_sm.jpg",
             },
             {
               "title": "Interactive Resume",
               "dates": 2015,
               "description": "Develop an interactive resume application that reads resume content from a JSON file and dynamically displays that content within a provided template. The resume application uses objects, functions, conditionals, and control structures to compose the content that will display on the resume. Prepared for this project with: JavaScript Basics and Intro to jQuery.",
-              "images": "images/interactive resume.jpg",
+              "images": "images/onlineresume.jpg",
             },
             {
               "title": "Classic Arcade Game",
@@ -271,30 +271,30 @@ var bio = {
         ]
       };
 
-  //display projects
-  $("#projects").append(HTMLprojectStart);
-              projects.display  = function () {
+//display projects
+        $("#projects").append(HTMLprojectStart);
+          projects.display  = function () {
               for (var project in projects.degreeProjects) {
 
                 var formattedProjectTitle =
                 HTMLprojectTitle.replace("%data%", projects.degreeProjects[project].title);
                 $(".project-entry:last").append(formattedProjectTitle);
 
-               var formattedProjectDates =
-              HTMLprojectDates.replace("%data%", projects.degreeProjects[project].dates);
-            $(".project-entry:last").append(formattedProjectDates);
+                var formattedProjectDates =
+                HTMLprojectDates.replace("%data%", projects.degreeProjects[project].dates);
+              $(".project-entry:last").append(formattedProjectDates);
 
-            var formattedProjectDescription =
-          HTMLprojectDescription.replace("%data%", projects.degreeProjects[project].description);
+                var formattedProjectDescription =
+            HTMLprojectDescription.replace("%data%", projects.degreeProjects[project].description);
         $(".project-entry:last").append(formattedProjectDescription);
 
-            var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.degreeProjects[project].images);
-            $(".project-entry:last").append(formattedProjectImage);
+                var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.degreeProjects[project].images);
+        $(".project-entry:last").append(formattedProjectImage);
     }
 };
-            projects.display ();
+        projects.display ();
 
-  // collecting clicks
+// collecting clicks
         $(document).click(function(loc) {
               // your code goes here!
             var x = loc.pageX;
@@ -302,7 +302,7 @@ var bio = {
 
             logClicks(x,y);
         });
-// internationalize function changes the first letter of the first name to Uppercase, and the entire last name to all UPPERCASE
+/* internationalize function changes the first letter of the first name to Uppercase, and the entire last name to all UPPERCASE
         function inName(name) {
             name = name.trim().split(" ");
             console.log(name);
@@ -311,7 +311,7 @@ var bio = {
             console.log(name);
             return name[0] +" "+name[1];
         }
-/*internationalize button
+//internationalize button
 $('#main').append(internationalizeButton);
 */
 // add google map
