@@ -61,14 +61,14 @@
         {
         "employer": "AT&T Wireless",
         "title": "LTE Site Acquisition Project Manager",
-        "location": "New York City Metropolitan Area",
+        "location": "Huntington, New York",
         "dates": "November 2013 - Present",
         "description": "Manage a team of project managers and multiple vendors covering the site acquisition process for the Carrier Add upgrades to AT&T’s LTE network in the New York City metropolitan area and northern New Jersey. Completed 100% of the 2014 LTE upgrade projects for 800+ locations, ahead of time, and within budget. Lead weekly project development and deployment meetings with multiple site acquisition and civil project vendors.	Provide guidance for complicated, legal, technical, business, and contractual issues that impact project timelines. Create market-specific master trackers, and provide in depth reporting of all milestone progress to senior level executive teams. Responsible for maintaining project schedules and for hitting and exceeding goals linked to planned, forecasted, and completion objectives. On board new vendor teams, and liaison with all internal and external groups accountable for LTE deployment in the market.",
       },
       {
         "employer": "AT&T Wireless",
         "title": "Senior Real Estate and Construction Manager",
-        "location": "New York City Metropolitan Area",
+        "location": "Huntington, New York",
         "dates": "October 2011 - November 2013",
         "description": "Recipient of the “Top 5 Idea Award” from The Innovation Pipeline IT Innovation Program. Awarded Six Sigma Green Belt Certification.	Assembled and led a team that conducted due diligence, lease reviews, and amendment responsibilities for national projects impacting the local market.	Saved $150,000+ in operating expenses by avoiding costs associated with temporary equipment moves, and negotiating cost-cutting departure agreements. Principal advocate and contributor of a Six Sigma/Lean project designed reduce access issues and improve real estate relationships. Cross collaborated with executive management, corporate and outside counsel, and numerous internal and external teams, as the subject matter expert and point of contact for multiple projects/issues affecting the wireless real estate portfolio – including, but not limited to site access, construction, new site builds, temporary equipment moves, equipment upgrades (UMTS, LTE, 4G, HVAC, Camlock, Generators, etc.), relocations, and terminations. Responsible for the review and negotiation of business and contract terms for new lease agreements and amendments.",
       },
